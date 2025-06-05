@@ -109,6 +109,18 @@ public class LifePane extends Pane {
         t.setX(width / 2 - t.getLayoutBounds().getWidth() / 2);
         t.setY(height / 15);
 
+        getChildren().addAll(bg, bg2, t);
+
+        setBoxes(width, height);
+    }
+
+    /**
+     * Metóda nastavuje a vykresľuje interaktívne nastavenia hry.
+     *
+     * @param width Šírka okna
+     * @param height Výška okna
+     */
+    private void setBoxes(double width, double height) {
         // Slider
         Text sliderLabel = new Text("Simulation Speed (s)");
         sliderLabel.setFont(textFont);
@@ -147,7 +159,7 @@ public class LifePane extends Pane {
         cbLabel.setX(width / 20);
         cbLabel.setY(9 * height / 20);
 
-        getChildren().addAll(bg, bg2, t, sliderLabel, slider, boxLabel, box, cbLabel);
+        getChildren().addAll(sliderLabel, slider, boxLabel, box, cbLabel);
 
         String[] rules = {"Underpopulation", "Survival", "Overpopulation", "Reproduction"};
         int y = 10;
