@@ -1,4 +1,4 @@
-# Semestrálny projekt
+# Game Life | Semestrálny projekt
 **Autor:** Barbora Marcinčáková  
 **Projekt:** Hra Život
 
