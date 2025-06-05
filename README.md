@@ -20,13 +20,7 @@ Simuláciu je možné:
 ---
 
 ## Obsah:
-V tomto priečinku sa nachádzajú ďalšie dva priečinky:
-- **GameLife** 
-- **javadoc**
-
-Priečinok **javadoc** obsahuje **dokumentáciu k projektu**, ktorú je možné otvoriť v prehliadači súborom `index.html`. Táto dokumentácia obsahuje informácie o vytvorených triedach a funkciách.
-
-Priečinok **GameLife** predstavuje **JavaFX projekt**, ktorý je možné spustiť v IntelliJ. Projekt sa spúšťa súborom `GameLife.java`, ktorý obsahuje funkciu `main`.
+Tento priečinok predstavuje **JavaFX projekt**, ktorý je možné spustiť v IntelliJ. Projekt sa spúšťa súborom `GameLife.java`, ktorý obsahuje funkciu `main`.
 
 ---
 
